@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/cv_fr.xsl"?>
+<CV>
+	<intitule>
+		<titre>Futur apprenti Ingénieur Informatique</titre>
+		<commentaire>A la recherche d’un contrat d’apprentissage de 12 mois, à raison d’un mois sur deux en entreprise dès Septembre 2023.</commentaire>
+	</intitule>
+	
+	<etat_civil nom='ALP' prenom='Sidane' dateNaissance='2002-06-24' age='21'>
+		<adresse numero="84" rue="Avenue Gabriel Péri" ville="Gonesse" cp="95500" />
+		<telephone>0783841281</telephone>
+		<email>sidanealp0@gmail.com</email>
+		<permis titulaire='non' type=''/>
+	</etat_civil>
+
+	<expPro>
+		<exp dateDebut='12/2016'>
+			<poste>Stage d'observation 3e</poste>
+			<entreprise>Grospiron International</entreprise>
+			<description>Observation du transport et de la logistique dans une entreprise de déménagement</description>
+		</exp>
+	</expPro>
+
+	<formations>
+		<formation intituleFormation="Informatique" niveau="Bac + 5 ou équivalent" diplome="Préparation au diplôme d'ingénieur informatique" domaine='Informatique'>
+			<annee debut="2022" fin="2025"/>
+			<ecole>Sup Galilée, Villetaneuse</ecole>
+		</formation>
+		
+		<formation intituleFormation="Mathématiques, Physique" niveau="Bac + 2 ou équivalent" diplome="Prépa MP/MPSI" domaine="Mathématiques et Physique">
+			<annee debut="2020" fin="2022"/>
+			<ecole>Lycée Fenelon, Paris</ecole>
+		</formation>
+
+		<formation intituleFormation="Scientifique" niveau="Bac" diplome="Baccalauréat Scientifique avec Mention Très Bien" domaine="SVT, Informatique et Science du Numérique">
+			<annee debut="2017" fin="2020"/>
+			<ecole>Lycée René Cassin, Gonesse</ecole>
+		</formation>
+	</formations>
+
+	<competencesInfo>
+		<intituleComp nom="Développement" list="Python, OCAML, C, JAVA"/>
+	</competencesInfo>
+		
+	<competencesLogiciel>
+		<intituleComp type="Systèmes d'exploitation" list="UNIX, WINDOWS"/>
+	</competencesLogiciel>
+
+	<langues>
+		<langue lg="Anglais" niveau="B2+" />
+		<langue lg="Espagnol" niveau="A1-A2" />
+		<langue lg="Kurde" niveau="Langue maternelle" />
+	</langues>
+	
+	<projets>
+		<projet>
+			<intitule>Automate cellulaire simulant une propagation de moustique</intitule>
+			<description>Projet soumis au concours des grandes écoles. Créé à l'aide de Python et du module Tkinter. Automate cellulaire bidimensionnel à paramètres multiples modélisant la propagation d'une population de moustiques en fonction du temps, de la population humaine, de la surface d'eau stagnante. Noté 16.4/20 aux concours CCINP-e3a.</description>
+			<annee debut="2021" fin="2022"/>
+		</projet>
+	</projets>
+	
+	<centreDinterets>
+		<centreDinteret nom="Lecture (policier, fantastique, science fiction)"/>
+		<centreDinteret nom="Natation"/>
+		<centreDinteret nom="Tennis"/>
+	</centreDinterets>
+	
+</CV>
+
