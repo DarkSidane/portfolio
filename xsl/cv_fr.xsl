@@ -19,14 +19,14 @@
 			<body>
 				<div id="header">
 					<div id="logo">
-						<a href="./index.html">
+						<a href="../index.html">
 							<img src="../img/logo.png" name="logo"/>
 						</a>
 					</div>
 					<div id="menu">
 						<ul>
 							<li>
-								<a href="./index.html">
+								<a href="../index.html">
 									<span>ACCUEIL</span>
 								</a>
 							</li>
@@ -41,13 +41,13 @@
 								</a>
 							</li>
 							<li>
-								<a href="./projets.html">
+								<a href="../projets.html">
 									<span>PROJETS</span>
 								</a>
 							</li>
 							<li>
 								<a href="./contact.html">
-									<span>CONTACT</span>
+									<span>A PROPOS</span>
 								</a>
 							</li>
 						</ul>
@@ -56,25 +56,22 @@
 						<ul>
 							<li>
 								<a href="http://fr.linkedin.com/in/sidane-alp-53660a179">
-									<img src="../img/linkedin_small.png" alt="linkedin"/>
+									<img src="../img/linkedin.png" alt="linkedin"/>
 								</a>
-							</li>
-							<li>
-								<a href="http://www.viadeo.com/fr/profile/maeva.chery">
-									<img src="../img/viadeo_small.png" alt="viadeo"/>
-								</a>
-							</li>
-							<li class="sep_v">
-								<img src="../img/bar-vertical2.png" alt="bar-vertical"/>
 							</li>
 							<li>
 								<a href="./cv.xml">
-									<img src="../img/france-flag.png" alt="fr_flag"/>
+									<img src="../img/france.png" alt="fr_flag"/>
 								</a>
 							</li>
 							<li>
 								<a href="../en/cv.xml">
-									<img src="../img/gb_flag.png" alt="en_flag"/>
+									<img src="../img/english.png" alt="en_flag"/>
+								</a>
+							</li>
+							<li>
+								<a href="../jp/cv.xml">
+									<img src="../img/japan.png" alt="jp_flag"/>
 								</a>
 							</li>
 						</ul>
@@ -85,7 +82,6 @@
 				</div>
 				<div id="body_content_cv">
 					<div id="cv">
-						<img class="pdf" src="../img/pdf.png" alt="télécharger"/>
 						<H1 align="center" property="dc:title">
 							<xsl:value-of select="CV/intitule/titre"/>
 						</H1>
@@ -96,7 +92,7 @@
 						<!--  Intitule  -->
 						<div id="intitule" typeof="foaf:person" about="#me">
 							<div id="photo_cv">
-								<img src="../img/photo_id.png" name="photo_id"/>
+								<img src="../img/sidane.png" name="photo_id"/>
 							</div>
 							<div id="ident">
 								<p>
@@ -329,7 +325,7 @@
 					<div id="li_foot">
 						<ul>
 							<li>
-								<a href="./index.html">
+								<a href="../index.html">
 									<span>Accueil</span>
 								</a>
 							</li>
@@ -351,7 +347,7 @@
 						</ul>
 						<ul>
 							<li>
-								<a href="./projets.html">
+								<a href="../projets.html">
 									<span>Projets</span>
 								</a>
 							</li>

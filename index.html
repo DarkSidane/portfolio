@@ -1,15 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="fr">
+
 	<head>
-		<meta charset="utf-8">
-		<title> Portfolio de Sidane ALP </title>
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="stylesheet" href="index.css">
-		<style>
-		</style>
-		<script src=""></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="Content-Language" content="fr" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<link href="../css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="alternate" type="text/html" title="Portfolio de Maeva CHERY - Acceuil" hreflang="fr" href="/fr/" />
+		<link rel="alternate" type="text/html" title="Maeva CHERY&apos; Portfolio - Home Page" hreflang="en" href="/en/" />
+		<link rel="alternate" type="text/html" title="マエバ奇瑞ポートフォリオ - ホームページ" hreflang="ja" href="/ja/" />
+		<title>Portfolio de Maeva CHERY - Acceuil</title>
+		<meta name="author" content="Maëva CHERY"/>
+		<meta name="keywords" xml:lang="fr" content="Chéry Maëva, Portfolio, Web Sémantique, Ingénieur, Informatique, CV" />
+		<meta name="description" content="Présentation des projets réaliser dans le cadre de ma formation , mon CV" />
+		<style type="text/css"></style>
+		<meta rel="dc:subject" href="http://dbpedia.org/resource/Semantic_Web"/>
+		<link rel="shortcut icon" href="../img/logo_2.ico" type="image/x-icon" />
 	</head>
+
 	<body>
-		<h1> Portfolio de Sidane ALP</h1>
+		<div id="header">
+
+			<div id="logo"><a href="/fr/index.html"><img src="../img/logo.png" alt="logo"/></a></div>
+			
+			<div id="menu">
+				<ul>
+					<li class="selected"><a href="./index.html"><span>ACCUEIL</span></a></li>
+					<li><a href="../xml/cv.xml"><span>CV</span></a></li>
+					<li><a href="./websem.html"><span>WEB SEMANTIQUE</span></a></li>
+					<li><a href="./projets.html"><span>PROJETS</span></a></li>
+					<li><a href="./contact.html"><span>A PROPOS</span></a></li>
+				</ul>
+			</div>
+			
+			<div id="ss_menu">
+				<ul>
+					<li><a href="https://www.linkedin.com/in/sidane-alp-53660a179/"><img src="../img/linkedin.png" alt="linkedin"/></a></li>
+					<li><a href="/fr/index.html"><img src="../img/france.png" alt="fr_flag"/></a></li>
+					<li><a href="/en/index.html"><img src="../img/english.png" alt="en_flag"/></a></li>
+					<li><a href="/ja/index.html"><img class="img_jap" src="../img/japan.png" alt="jap_flag"/></a></li>
+				</ul>
+			</div>
+
+		</div>
+		
+		<div class="sep"><img src="../img/bar_sep.png" alt="bar_sep"/></div>
+		
+		<div id="body_content">
+			<div id="photo_id">
+				<img src="../img/sidane.png" alt="photo_id"/>
+			</div>
+			
+			<div id="text" typeof="foaf:person" about="#me">
+				<h1 property="dc:title">Bienvenue sur mon Portfolio ! </h1>
+				<p>Je m’appelle <span property="foaf:firstName">Maëva</span> <span property="foaf:lastName">CHERY</span>.</p>
+				
+				<div>
+					<p>J&apos;occupe actuellement un poste de Business Analyst et Application Engineer au sein de l&apos;entreprise
+	<span><a href="http://www.sanofi.com">Sanofi</a></span>. </p>
+					
+					<p>Ma mission consiste à développer une solution permettant aux chercheurs 
+	de réaliser des tests prédictifs en détectant des liens entre la structure chimique et la toxicité.
+					</p>
+					<p>Trois étapes clés composent le coeur du projet :
+					</p>
+					<div>
+						<ul>
+							<li>Acquisition des données - extraction automatique de l&apos;information contenu dans des documents PDF 
+					via des techniques sémantiques (TAL : Traitement automatique de la langue) </li>
+							<li>Traitement des données - intégration des données dans un SGBD (Système de gestion de base de données)</li>
+							<li>Analyse des données et Visualisation</li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<p>Je suis actuellement en 3ème année d’ingénieur en informatique et réseaux
+					en apprentissage, à l&apos;école d&apos;ingénieur <span><a rel="foaf=schoolHomepage" href="http://www.sup-galilee.univ-paris13.fr">Sup Galilée</a></span> de l&apos;université Paris 13. </p>
+				
+					<div><p>Durant ma formation j&apos;ai travaillé sur différents projets, parmis lesquels :</p>
+						
+						<ul>
+							<li>Base de données/Entrepôt de données/Big Data 
+								<ul>
+									<li>Projet : création d&apos;un SGBD avec gestion de l&apos;historique des données</li>
+									<li>Etude de cas : proposition d&apos;une solution de BI permettant à une entreprise fictive d&apos;optimiser ses coûts</li>
+									<li>Mini projet sur big data - Traitement avec SPARK et Kmeans</li>
+								</ul> 
+							</li>
+							<li>Projet Web Sémantique - Portfolio</li>
+							<li>Projet Java - Jeu Shoot Them Up</li>
+							<li>Projet Java - Statistique et visualisation</li>
+							<li>Projet Web - Création de site Web</li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="sep"><img src="../img/bar_sep.png" alt="bar_sep"/></div>
+		
+		<div id="foot">
+		
+			<div id="li_foot">
+				<ul>
+					<li><a href="/fr/index.html"><span>Accueil</span></a></li>
+					<li><a href="./cv.xml"><span>CV</span></a></li>
+				</ul>	
+				<ul>
+					<li><a href="./websem.html"><span>Web Sémantique</span></a></li>	
+					<li><span>Java</span></li>
+				</ul>
+				<ul>
+					<li><a href="./projets.html"><span>Projets</span></a></li>
+					<li><a href="./contact.html"><span>Contact</span></a></li>
+				</ul>
+			</div>
+			
+			<div id="valid">	
+				<ul>
+					<li>
+						<span resource="http://www.w3.org/TR/rdfa-syntax" rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+							<a href="http://validator.w3.org/check?uri=referer">
+								<img src="../img/valxrdfa.png" alt="valide xhtml et rdfa"/>
+							</a>
+						</span>
+					</li>
+					<li>
+						<a href="http://jigsaw.w3.org/css-validator/check/referer">
+							<img src="../img/valid-css.png" alt="valide css3"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="copyright">
+		 		<p property="dc:rights"> &copy; Copyright Ma&euml;va CHERY - Tous droits r&eacute;serv&eacute;s</p>
+		 	</div>
+		 	
+		</div>
+		
 	</body>
+
 </html>
