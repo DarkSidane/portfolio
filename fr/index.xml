@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/index_fr.xsl"?>
+<HomePage>
+    <introduction>
+        Bienvenue sur mon portfolio en ligne!
+        Je suis Sidane ALP, futur ingénieur en informatique.
+    </introduction>
+    <about>
+        Actuellement étudiant en préparation du diplôme d'ingénieur à Sup Galilée,
+        je suis passionné par le développement logiciel et les nouvelles technologies.
+    </about>
+    <latestProjects>
+        <project>
+            <title>Automate cellulaire pour la simulation de propagation</title>
+            <summary>Projet de simulation utilisant Python pour étudier la propagation des moustiques.</summary>
+        </project>
+    </latestProjects>
+    <contactInfo>
+        Pour plus d'informations ou pour me contacter:
+        <email>sidanealp0@gmail.com</email>
+        <phone>0783841281</phone>
+    </contactInfo>
+</HomePage>
+

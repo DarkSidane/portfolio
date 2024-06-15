@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="Content-Language" content="fr" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<link href="../css/style.css" rel="stylesheet" type="text/css" />
+		<link href="../css/contact.css" rel="stylesheet" type="text/css" />
+		<link rel="alternate" type="text/html" title="Portfolio de Maeva CHERY - Contact" hreflang="fr" href="/fr/"/>
+		<link rel="alternate" type="text/html" title="Maeva CHERY&apos; Portfolio - Contact" hreflang="en" href="/en/"/>
+		<title>Portfolio de Maeva CHERY - Contact</title>
+		<meta name="author" content="Maëva CHERY"/>
+		<meta name="keywords" xml:lang="fr" content="Chéry Maëva, Portfolio, Web Sémantique, Ingénieur, Informatique, CV" />
+		<meta name="description" content="Présentation des projets réaliser dans le cadre de ma formation , mon CV" />
+		<style type="text/css"></style>
+		<link rel="shortcut icon" href="../img/logo_2.ico" type="image/x-icon" />
+		
+	</head>
+
+	<body>
+		<div id="header">
+
+			<div id="logo"><a href="./index.html"><img src="../img/logo.png" alt="logo"/></a></div>
+			
+			<div id="menu">
+				<ul>
+					<li><a href="./index.html"><span>ACCUEIL</span></a></li>
+					<li><a href="./cv.xml"><span>CV</span></a></li>
+					<li><a href="./websem.html"><span>WEB SEMANTIQUE</span></a></li>
+					<li><a href="./projets.html"><span>PROJETS</span></a></li>
+					<li class="selected"><a href="./contact.html"><span>CONTACT</span></a></li>
+				</ul>
+			</div>
+			
+			<div id="ss_menu">
+				<ul>
+					<li><a href="http://fr.linkedin.com/in/maevachery"><img src="../img/linkedin_small.png" alt="linkedin"/></a></li>
+					<li><a href="http://www.viadeo.com/fr/profile/maeva.chery"><img src="../img/viadeo_small.png" alt="viadeo"/></a></li>
+					<li class="sep_v"><img src="../img/bar-vertical2.png" alt="bar-vertical"/></li>
+					<li><a href="./contact.html"><img src="../img/france-flag.png" alt="fr_flag"/></a></li>
+					<li><a href="../en/contact.html"><img src="../img/gb_flag.png" alt="en_flag"/></a></li>
+				</ul>
+			</div>
+
+		</div>
+		
+		<div class="sep"><img src="../img/bar_sep.png" alt="bar_sep" /></div>
+		
+		<div id="body_contact">
+			<h1 style="text-align:center;">CONTACT</h1>
+			<p style="text-align:center;" >N'hésitez pas à me contacter pour toute demande d'information complémentaire.</p>
+			
+			<div id="form_contact">
+				<form id="contact" method="post" action="../php/traitement_formulaire.php">
+					
+					<fieldset>
+						<legend>Vos coordonnées</legend>
+						<p>
+							<label for="nom">Nom :</label>
+							<input type="text" id="nom" name="nom" tabindex="1" />
+						</p>
+						<p>
+							<label for="email">Email :</label>
+							<input type="text" id="email" name="email" tabindex="2" />
+						</p>
+					</fieldset>
+
+					<fieldset>
+						<legend>Votre message :</legend>
+						<p>
+							<label for="objet">Objet :</label>
+							<input type="text" id="objet" name="objet" tabindex="3" />
+						</p>
+						<p>
+							<label for="message">Message :</label>
+							<textarea id="message" name="message" tabindex="4" cols="30" rows="8"></textarea>
+						</p>
+					</fieldset>
+
+
+					<div style="text-align:center;">
+						<input type="submit" name="envoi" value="Envoyer le formulaire !" />
+					</div>
+				</form>
+
+			</div>
+			
+			<div id="autre_contact">
+				
+			
+				<div id="mail">
+					<table>
+						<tr>
+							<td class="mail"><img src="../img/email.png" alt="mail"/></td>
+							<td class="mail_text">chery.maeva@live.fr</td>
+						</tr>
+						<tr>
+							<td id="linkedin"><a href="https://fr.linkedin.com/"><img src="../img/linkedin.png" alt="linkedin"/></a></td>
+						</tr>
+						<tr>
+							<td id="viadeo"><a href="http://fr.viadeo.com/fr/"><img src="../img/viadeo.png" alt="viadeo"/></a></td>
+						</tr>
+					</table>
+				</div>
+	
+			</div>
+			
+		</div>
+		
+		<div class="sep"><img src="../img/bar_sep.png" alt="bar_sep" /></div>
+		
+		<div id="foot">
+		
+			<div id="li_foot">
+				<ul>
+					<li><a href="./index.html"><span>Accueil</span></a></li>
+					<li><a href="./cv.xml"><span>CV</span></a></li>
+				</ul>	
+				<ul>
+					<li><a href="./websem.html"><span>Web Sémantique</span></a></li>	
+					<li><span>Java</span></li>
+				</ul>
+				<ul>
+					<li><a href="./projets.html"><span>Projets</span></a></li>
+					<li><a href="./contact.html"><span>Contact</span></a></li>
+				</ul>
+			</div>
+			
+			<div id="valid">	
+				<ul>
+					<li>
+						<span>
+							<a href="http://validator.w3.org/check?uri=referer">
+								<img src="../img/valxrdfa.png" alt="valide xhtml et rdfa"/>
+							</a>
+						</span>
+					</li>
+					<li>
+						<a href="http://jigsaw.w3.org/css-validator/check/referer">
+							<img src="../img/valid-css.png" alt="valide css3"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="copyright">
+		 		<p> &copy; Copyright Ma&euml;va CHERY - Tous droits r&eacute;serv&eacute;s</p>
+		 	</div>
+		 	
+		</div>
+	
+	</body>
+
+</html>

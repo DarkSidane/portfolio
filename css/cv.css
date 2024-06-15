@@ -1,132 +1,72 @@
-#body_content_cv{
-	width:1000px;
-	margin-left: auto;
-   	margin-right: auto;
-	display:block;
-	padding: 10px 0px 10px 30px;
-	
-}
-.pdf{
-	width:40px;
-	height:35px;
-	float:right;
-	margin-right:40px;
-	margin-left:-40px;
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-#cv{
-	padding-top:20px;
-	line-height:5px;
-	font-family: Century, Athelas, Verdana, Geneva, sans-serif;
+#header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-#intitule{
-	padding-top:20px;
-	padding-bottom:10px;
+#header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-#photo_cv{
-	width:79px;
-	height:104px;
-	display:inline-block;
-	float:right;
-	margin-right:60px;
-	margin-top:10px;
-	border-style:solid;
-	border-color:#dd4095;
-	border-width:2px;
+#header ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-#ident{
-	padding-left:50px;
-    
+#header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
 }
 
-.rubriques{
-	border-style:solid;
-	border-color:#dd4095;
-	border-width:1px;
-	margin-top:10px;
-	border-radius:20px 20px 20px 20px;
+#content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.rubriques_pl{
-	border-style:solid;
-	border-color:#dd4095;
-	border-width:1px;
-	display:inline-block;
-	float:left;
-	width:490px;
-	height:200px;
-	margin-top:10px;
-	border-radius:20px 20px 20px 20px;
-}
-.rubriques_pr{
-	border-style:solid;
-	border-color:#dd4095;
-	border-width:1px;
-	display:inline-block;
-	float:right;
-	width:490px;
-	height:200px;
-	border-radius:20px 20px 20px 20px;
-}
-#rubriques_group{
-	height:200px;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-#competenceInfo{
-	border-style:solid;
-	border-color:#dd4095;
-	border-width:1px;
-	display:inline-block;
-	float:left;
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
 
-#competencesLogiciel{
-	border-style:solid;
-	border-color:#dd4095;
-	border-width:1px;
-	display:inline-block;
-	float:left;
+th {
+    background-color: #4CAF50;
+    color: white;
 }
 
-.ss_titre{
-	text-align:center;
-	height:30px;
-	line-height:30px;
-	background-color: rgba(125, 124, 124, 0.1);
-	margin-top:-20px;
-	border-radius:20px 20px 0px 0px;
-	
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-.date {
-  vertical-align:top;
-  padding-right:10px;
-  width:100px;
-}
-
-.date_e {
-  vertical-align:top;
-  padding-right:10px;
-  width:200px;
-}
-
-.description{
-	line-height:20px;
-}
-
-.description_projet{
-	line-height:20px;
-	margin-left:40px;
-}
-
-.intitule{
-	font-weight: bold;
-}
-
-.description_comp{
-	line-height:20px;
-	margin-left:40px;
+.language span {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 10px;
 }
