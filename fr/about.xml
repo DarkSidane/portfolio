@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/about_fr.xsl"?>
+<AboutPage>
+    <section>
+        <title>À propos de moi</title>
+        <content>Je suis Sidane ALP, futur ingénieur informatique passionné par le développement de solutions innovantes et efficaces. J'ai acquis une solide expérience en programmation et en conception de systèmes complexes au cours de ma formation et de mes divers projets personnels et académiques.</content>
+    </section>
+    <contact>
+        <title>Contactez-moi</title>
+        <email>sidanealp0@gmail.com</email>
+    </contact>
+</AboutPage>
+

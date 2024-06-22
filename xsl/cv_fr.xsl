@@ -11,11 +11,11 @@
                 <div id="header">
                     <img src="../img/logo.png" alt="Logo"/>
                     <ul>
-                        <li><a href="./index.html">Accueil</a></li>
+                        <li><a href="./index.xml">Accueil</a></li>
                         <li><a href="./cv.xml">CV</a></li>
-                        <li><a href="./projets.html">Projets</a></li>
-                        <li><a href="./semantique.html">Sémantique</a></li>
-                        <li><a href="./about.html">À propos</a></li>
+                        <li><a href="./projets.xml">Projets</a></li>
+                        <li><a href="./semantique.xml">Sémantique</a></li>
+                        <li><a href="./about.xml">À propos</a></li>
                     </ul>
                 </div>
                 <div id="content">

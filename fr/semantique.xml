@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/semantique_fr.xsl"?>
+<SemantiquePage>
+    <introduction>
+        Le web sémantique consiste à rendre compréhensible les données sur le web par des machines. Le terme a été proposé par Tim Berners Lee en 2001 pour désigner une évolution du web qui permettrait aux données d'être utilisables et interprétables automatiquement par des logiciels. Pour permettre cette évolution, des standards W3C ont été développés.
+        Durant ma formation d'ingénieur j'ai eu une approche du web sémantique dans laquelle j'ai pu voir les différents outils permettant de structurer les données (XML, XPath, XML Schema, XSLT), de faire des relations entre ces données (RDF, RDFS, RDFa) et de faire des requêtes sur les données (SPARQL).
+        J'ai pu approfondir ces connaissances en participant à un MOOC donné par l'INRIA sur ce sujet. J'ai appliqué ces différents concepts dans la réalisation de mon Portfolio.
+    </introduction>
+    <formation>
+        <item>
+            Approfondissement des bases : DTD, XML / XSD / XSLT, SVG
+        </item>
+        <item>
+            Web sémantique : RDF / RDFs, SPARQL
+        </item>
+        <item>
+            Web des données : RDFa - Projet Portfolio
+        </item>
+        <item>
+            Web multilingue : Projet Portfolio
+        </item>
+    </formation>
+    <mooc>
+        <title>MOOC : Web sémantique et Web de données</title>
+        <teachers>Fabien Gandon, Olivier Corby, Catherine Faron Zucker</teachers>
+        <weeks>
+            <week>1 : Vers un web des données liées</week>
+            <week>2 : Le modèle de données RDF</week>
+            <week>3 : Le langage de requête SPARQL</week>
+            <week>4 : Ontologies et schémas RDFS</week>
+            <week>5 : Formalisation en OWL</week>
+            <week>6 : Des schémas particuliers</week>
+            <week>7 : Vers plus d'intégration de données</week>
+        </weeks>
+    </mooc>
+    <links>
+        <link url="http://www.yoyodesign.org/doc/w3c/xhtml-rdfa-primer/">XHTML+RDFa Primer</link>
+        <link url="http://www.w3.org/RDF/Validator/">W3C RDF Validator</link>
+        <link url="http://rdf-translator.appspot.com/">RDF Translator</link>
+        <link url="http://www.w3.org/TR/sparql11-overview/">SPARQL 1.1 Overview</link>
+        <link url="http://fr.dbpedia.org/sparql">French DBpedia SPARQL Endpoint</link>
+    </links>
+</SemantiquePage>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/projets_fr.xsl"?>
+<ProjectsPage>
+    <project>
+        <title>Simulation de Propagation des Moustiques</title>
+        <summary>Ce projet utilise un automate cellulaire pour simuler la propagation des moustiques en fonction de divers facteurs environnementaux.</summary>
+        <link>https://example.com/mosquito_simulation</link>
+    </project>
+    <project>
+        <title>Application Web pour Gestion d'Événements</title>
+        <summary>Développement d'une application permettant la gestion et la planification d'événements, utilisant Java et Spring Boot.</summary>
+        <link>https://example.com/event_management</link>
+    </project>
+</ProjectsPage>
+
